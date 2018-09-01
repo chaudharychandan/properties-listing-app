@@ -1,0 +1,36 @@
+.list {
+  section {
+    &.grid {
+      width: 1300px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-flow: row wrap;
+      .card {
+        flex-basis: 250px;
+        margin: 20px;
+      }
+    }
+    
+    &.slider {
+      width: 1300px;
+      display: flex;
+      flex-flow: row nowrap;
+      overflow-x: scroll;
+      .card {
+        width: 250px;
+        margin: 20px;
+      }
+    }
+  }
+  .layout {
+    height: 60px;
+    padding: 20px 0 0 20px;
+    button {
+      width: 80px;
+      height: 40px;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+}

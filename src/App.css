@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-flow: row; }
+  .App .filter {
+    width: 500px;
+    margin-top: 50px;
+    padding: 0 20px; }
+  .App .list {
+    width: 1300px; }
